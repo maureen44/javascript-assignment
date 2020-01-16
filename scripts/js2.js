@@ -12,15 +12,20 @@ for (number = 0; number <= 100; number++) {
 
     if (number % 3 == 0 && number % 5 == 0) {
         console.log("HeeHaw!");
-
+        //document.body.innerHTML = "HeeHaw!";
+        window.alert("HeeHaw!");
     } else if (number % 3 == 0) {
         console.log("Hee!");
-
+        //document.body.innerHTML = "Hee!";
+        window.alert("Hee!");
     } else if (number % 5 == 0) {
         console.log("Haw!");
-
+        //document.body.innerHTML = "Haw!";
+        window.alert("Haw!");
     } else {
         console.log(number);
-
+        //document.body.innerHTML = number;
+        window.alert(number);
     }
+
 }
